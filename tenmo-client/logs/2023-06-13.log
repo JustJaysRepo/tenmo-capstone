@@ -1,0 +1,44 @@
+2023-06-13T00:22:24.618004 500 : 
+2023-06-13T01:01:01.521151 401 : [no body]
+2023-06-13T01:02:04.338259 404 : [{"timestamp":"2023-06-13T06:02:04.336+00:00","status":404,"error":"Not Found","message":"No message available","path":"/transfers/3004/statusApproved"}]
+2023-06-13T01:02:44.042038 500 : 
+2023-06-13T01:04:58.247069 400 : [{"timestamp":"2023-06-13T06:04:58.235+00:00","status":400,"error":"Bad Request","message":"Failed to convert value of type 'java.lang.String' to required type 'com.techelevator.tenmo.model.TransferSta... (631 bytes)]
+2023-06-13T01:27:43.005034 500 : 
+2023-06-13T09:26:26.837732 500 : [{"timestamp":"2023-06-13T14:26:26.828+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; bad SQL grammar [UPDATE transfer SET transfer_type_id = ?, transfer_stat... (521 bytes)]
+2023-06-13T09:44:31.390132 500 : 
+2023-06-13T09:48:57.460873 500 : 
+2023-06-13T09:49:29.333338 500 : [{"timestamp":"2023-06-13T14:49:29.326+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; bad SQL grammar [INSERT INTO transfer (transfer_type_id, transfer_status... (535 bytes)]
+2023-06-13T09:49:56.797549 500 : 
+2023-06-13T09:56:48.903021 500 : [{"timestamp":"2023-06-13T14:56:48.891+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; bad SQL grammar [INSERT INTO transfer (transfer_type_id, transfer_status... (535 bytes)]
+2023-06-13T09:59:50.147275 500 : [{"timestamp":"2023-06-13T14:59:50.138+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO transfer (transfer_type_id, transfer_status_id, account... (443 bytes)]
+2023-06-13T10:11:54.733213 500 : 
+2023-06-13T10:12:26.952724 500 : [{"timestamp":"2023-06-13T15:12:26.943+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO transfer (transfer_type_id, transfer_status_id, account... (443 bytes)]
+2023-06-13T10:24:26.458656 500 : [{"timestamp":"2023-06-13T15:24:26.449+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO transfer (transfer_type_id, transfer_status_id, account... (443 bytes)]
+2023-06-13T10:24:51.140528 400 : [{"timestamp":"2023-06-13T15:24:51.138+00:00","status":400,"error":"Bad Request","message":"Transfer is not pending","path":"/transfers/3009/status/APPROVED"}]
+2023-06-13T10:31:42.53138 500 : [{"timestamp":"2023-06-13T15:31:42.523+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO transfer (transfer_type_id, transfer_status_id, account... (443 bytes)]
+2023-06-13T10:31:55.699751 400 : [{"timestamp":"2023-06-13T15:31:55.697+00:00","status":400,"error":"Bad Request","message":"User is not authorized to approve or reject his own transfer request","path":"/transfers/3010/status/APPROVED"}]
+2023-06-13T10:32:07.361911 400 : [{"timestamp":"2023-06-13T15:32:07.360+00:00","status":400,"error":"Bad Request","message":"User is not authorized to approve or reject his own transfer request","path":"/transfers/3010/status/APPROVED"}]
+2023-06-13T10:33:43.285651 500 : [{"timestamp":"2023-06-13T15:33:43.277+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO transfer (transfer_type_id, transfer_status_id, account... (443 bytes)]
+2023-06-13T10:47:22.88406 400 : [{"timestamp":"2023-06-13T15:47:22.872+00:00","status":400,"error":"Bad Request","message":"User is not authorized to approve or reject his own transfer request","path":"/transfers/3012/status/APPROVED"}]
+2023-06-13T10:54:51.714003 500 : 
+<<<<<<< HEAD
+2023-06-13T11:09:38.841628 401 : [no body]
+2023-06-13T11:10:10.336477 500 : 
+2023-06-13T11:11:52.457948 500 : 
+2023-06-13T11:12:47.966376 400 : [{"timestamp":"2023-06-13T16:12:47.957+00:00","status":400,"error":"Bad Request","message":"User does not have enough money to approve the transfer","path":"/transfers/3013/status/APPROVED"}]
+2023-06-13T11:14:02.485684 500 : 
+2023-06-13T11:14:22.101739 400 : [{"timestamp":"2023-06-13T16:14:22.095+00:00","status":400,"error":"Bad Request","message":"User is not authorized to approve or reject his own transfer request","path":"/transfers/3013/status/APPROVED"}]
+2023-06-13T14:47:53.468723 400 : [{"timestamp":"2023-06-13T19:47:53.452+00:00","status":400,"error":"Bad Request","message":"Validation failed for object='transfer'. Error count: 1","errors":[{"codes":["NotNull.transfer.transfer_statu... (611 bytes)]
+2023-06-13T14:48:27.142231 500 : 
+2023-06-13T14:49:21.187096 400 : [{"timestamp":"2023-06-13T19:49:21.172+00:00","status":400,"error":"Bad Request","message":"Validation failed for object='transfer'. Error count: 1","errors":[{"codes":["NotNull.transfer.transfer_statu... (611 bytes)]
+2023-06-13T14:50:53.396676 500 : [{"timestamp":"2023-06-13T19:50:53.384+00:00","status":500,"error":"Internal Server Error","message":"Transfer type and status are required","path":"/transfers"}]
+2023-06-13T14:54:07.609022 500 : 
+=======
+2023-06-13T13:56:31.6615954 400 : [{"timestamp":"2023-06-13T17:56:31.647+00:00","status":400,"error":"Bad Request","message":"User is not authorized to approve or reject his own transfer request","path":"/transfers/3001/status/APPROVED"}]
+2023-06-13T13:56:37.8346764 400 : [{"timestamp":"2023-06-13T17:56:37.832+00:00","status":400,"error":"Bad Request","message":"User is not authorized to approve or reject his own transfer request","path":"/transfers/3001/status/APPROVED"}]
+2023-06-13T13:58:24.7314796 400 : [{"timestamp":"2023-06-13T17:58:24.729+00:00","status":400,"error":"Bad Request","message":"User is not authorized to approve or reject his own transfer request","path":"/transfers/3001/status/APPROVED"}]
+2023-06-13T14:05:09.6069052 400 : [{"timestamp":"2023-06-13T18:05:09.594+00:00","status":400,"error":"Bad Request","message":"User is not authorized to approve or reject his own transfer request","path":"/transfers/3001/status/APPROVED"}]
+2023-06-13T14:05:58.2776169 500 : 
+2023-06-13T14:25:46.19674 500 : 
+2023-06-13T14:25:55.6243234 400 : [{"timestamp":"2023-06-13T18:25:55.621+00:00","status":400,"error":"Bad Request","message":"User is not authorized to approve or reject his own transfer request","path":"/transfers/3003/status/APPROVED"}]
+>>>>>>> 248e7348e90c79dbdf3d89fad15bcd64c9b43293

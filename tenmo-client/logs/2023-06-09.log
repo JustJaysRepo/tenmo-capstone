@@ -1,0 +1,14 @@
+2023-06-09T17:35:00.452031 I/O error on POST request for "http://localhost:8080/register": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2023-06-09T17:37:01.0864073 I/O error on POST request for "http://localhost:8080/login": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2023-06-09T17:37:09.1418643 I/O error on POST request for "http://localhost:8080/register": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2023-06-09T17:37:14.4536575 I/O error on POST request for "http://localhost:8080/login": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2023-06-09T17:46:00.8383334 I/O error on POST request for "http://localhost:8080/register": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2023-06-09T17:51:24.6853264 401 : [no body]
+2023-06-09T17:52:08.9389672 401 : [no body]
+2023-06-09T19:39:33.6503967 500 : [{"timestamp":"2023-06-09T23:39:33.641+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO tenmo_user (username, password_hash) VALUES (?, ?) RETU... (534 bytes)]
+2023-06-09T19:39:40.8294139 401 : [no body]
+2023-06-09T19:39:59.7124298 401 : [no body]
+2023-06-09T19:49:00.3156764 401 : [no body]
+2023-06-09T19:51:33.4713854 401 : [no body]
+2023-06-09T19:51:50.3427655 401 : [no body]
+2023-06-09T19:55:23.8912513 401 : [no body]

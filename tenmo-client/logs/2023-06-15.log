@@ -1,0 +1,12 @@
+2023-06-15T11:12:43.499551 500 : 
+2023-06-15T11:21:40.117429 500 : 
+2023-06-15T12:03:10.391847 400 : [{"timestamp":"2023-06-15T16:03:10.379+00:00","status":400,"error":"Bad Request","message":"User is not authorized to approve or reject his own transfer request","path":"/transfers/3006/status/APPROVED"}]
+2023-06-15T12:26:15.828407 400 : [{"timestamp":"2023-06-15T16:26:15.815+00:00","status":400,"error":"Bad Request","message":"User is not authorized to approve or reject his own transfer request","path":"/transfers/3006/status/REJECTED"}]
+2023-06-15T12:31:41.11338 401 : [no body]
+2023-06-15T13:02:26.662243 400 : [{"timestamp":"2023-06-15T17:02:26.648+00:00","status":400,"error":"Bad Request","message":"User is not authorized to approve or reject his own transfer request","path":"/transfers/3006/status/APPROVED"}]
+2023-06-15T13:12:44.091758 401 : [no body]
+2023-06-15T13:14:34.065236 I/O error on POST request for "http://localhost:8080/login": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2023-06-15T13:14:47.821276 I/O error on POST request for "http://localhost:8080/login": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2023-06-15T16:10:16.9139 500 : 
+2023-06-15T16:23:45.123585 500 : 
+2023-06-15T18:58:50.066227 401 : [no body]

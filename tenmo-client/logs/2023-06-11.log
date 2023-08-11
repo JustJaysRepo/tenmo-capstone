@@ -1,0 +1,14 @@
+2023-06-11T10:28:24.373233 500 : [{"timestamp":"2023-06-11T15:28:24.354+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO tenmo_user (username, password_hash) VALUES (?, ?) RETU... (534 bytes)]
+2023-06-11T19:08:27.132142 500 : [{"timestamp":"2023-06-12T00:08:27.108+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO tenmo_user (username, password_hash) VALUES (?, ?) RETU... (534 bytes)]
+2023-06-11T19:10:35.198081 500 : [{"timestamp":"2023-06-12T00:10:35.188+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO transfer (transfer_type_id, transfer_status_id, account... (443 bytes)]
+2023-06-11T19:10:56.253481 500 : [{"timestamp":"2023-06-12T00:10:56.251+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO transfer (transfer_type_id, transfer_status_id, account... (443 bytes)]
+2023-06-11T19:11:03.407095 401 : 
+2023-06-11T19:14:20.296549 401 : 
+2023-06-11T19:18:07.491057 401 : 
+2023-06-11T19:19:15.785227 404 : 
+2023-06-11T19:30:28.569822 404 : 
+2023-06-11T19:37:41.192119 404 : 
+2023-06-11T20:21:15.60329 400 : 
+2023-06-11T20:22:47.240696 400 : 
+2023-06-11T21:58:31.185705 500 : [{"timestamp":"2023-06-12T02:58:31.177+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO transfer (transfer_type_id, transfer_status_id, account... (443 bytes)]
+2023-06-11T21:59:02.358029 500 : [{"timestamp":"2023-06-12T02:59:02.356+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO transfer (transfer_type_id, transfer_status_id, account... (443 bytes)]
